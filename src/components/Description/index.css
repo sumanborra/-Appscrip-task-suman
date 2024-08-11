@@ -1,0 +1,41 @@
+.description-container{
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Roboto";
+    
+    
+}
+@media screen and (max-width:575px) {
+    .description-container{
+        display: none;
+    }
+}
+.description-container-mobile{
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Roboto";
+    text-align: center;
+}
+@media screen and (min-width:576px) {
+    .description-container-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .heding-text-description{
+        font-size: 18px;
+    }
+    .description-para{
+        font-size: 14px;
+    }
+}
+.heding-text-description{
+    line-height: 0.5;
+}

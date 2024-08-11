@@ -1,0 +1,111 @@
+.fooetr-top-secton-component-container{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+}
+@media screen and (max-width:575px) {
+    .fooetr-top-secton-component-container{
+        display: none;
+    }
+}
+.fooetr-top-secton-component-container-mobile{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:576px) {
+    .fooetr-top-secton-component-container-mobile{
+        display: none;
+    }
+}
+
+.heding-text-in-footer-left{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+}
+@media  screen and (max-width:575px) {
+    .heding-text-in-footer-left{
+        font-size: 14px;
+    }
+}
+.para-text-footer-top{
+    font-family: "Roboto";
+    font-size: 14px;
+    
+    color: #ffffff;
+}
+@media screen and (max-width:575px) {
+    .para-text-footer-top{
+        font-size: 12px;
+    }
+}
+.search-box-in-footer{
+    height: 30px;
+    width: 180px;
+    font-family: "Roboto";
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.buttn-subscribe{
+    background-color: transparent;
+    padding: 5px;
+    height: 28px;
+    width: 120px;
+    border: 1px solid #7b7a7a;
+    color: #7b7a7a;
+}
+.image-usa{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.logo-usa-container{
+    display: flex;
+    align-items: center;
+}
+.usd-text-in-footer-top{
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #ffffff;
+}
+.hr-line-in-footer{
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+.mail-contact-details-container{
+    display: flex;
+    
+}
+.mobile-view-buttn{
+    margin-top: 10px;
+}
+.mobile-view-contact-details{
+    margin-left: 4px;
+}
+.select-in-footer-mobile{
+    height: 40px;
+    width: 100%;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.payment-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.image-payment-card{
+    height: 35px;
+    width: 50px;
+    border-radius: 4px;
+    margin: 5px;
+}

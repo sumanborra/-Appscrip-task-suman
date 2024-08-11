@@ -1,0 +1,44 @@
+.header-main-container{
+    height: 6vh;
+    padding: 20px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 575px) {
+    .header-main-container{
+        display: none;
+    }
+}
+.header-main-container-mobile{
+    height: 6vh;
+    padding: 20px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media screen and (min-width: 575px) {
+    .header-main-container-mobile{
+        display: none;
+    }
+}
+.logo-heding-text{
+    font-family: "Roboto";
+    font-weight: 800;
+}
+.nav-link-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.language-seclect{
+    border: none;
+    font-weight: bold;
+    outline: none;
+    height: 30px;
+    background-color: transparent;
+}

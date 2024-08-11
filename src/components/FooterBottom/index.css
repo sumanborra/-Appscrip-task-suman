@@ -1,0 +1,42 @@
+.footer-bottm-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-heading{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.list-container-footer-bottom{
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #ffffff;
+    padding: 0px;
+    list-style-type: none;
+}
+.list-items-in-footer-bottom{
+    margin-top: 10px;
+}
+.footer-bottom-social-icons{
+    display: flex;
+}
+.icon-background-container-footer-bottom{
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid #bebcbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.bottom-footer-para-text{
+    font-size: 18px;
+}
+.footer-bottom{
+    height: 40px;
+    width: 60px;
+    
+}
